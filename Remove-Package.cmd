@@ -1239,16 +1239,6 @@ if %errorlevel% EQU 1 goto Menu
 if %errorlevel% EQU 2 goto Close
 :: ------------------------------------------------------------------------------------
 
-:Restart
-cls
-echo.Windows will be restarted after 15 seconds.
-echo.Thank you for using my program.
-echo.Any details please contact me through: fb.com/kequaduongvodanh
-echo.Goodbye and see you again!
-timeout /t 15 /nobreak
-shutdown /r /f /t 00
-:: ------------------------------------------------------------------------------------
-
 :Close
 cls
 echo.The program will be closed after 15 seconds.
@@ -1257,4 +1247,14 @@ echo.Any details please contact me through: fb.com/kequaduongvodanh
 echo.Goodbye and see you again!
 timeout /t 15 /nobreak
 exit
+:: ------------------------------------------------------------------------------------
+
+:Restart
+cls
+echo.Windows will be restarted after 15 seconds.
+echo.Thank you for using my program.
+echo.Any details please contact me through: fb.com/kequaduongvodanh
+echo.Goodbye and see you again!
+timeout /t 15 /nobreak
+shutdown /r /f /t 00
 :: ------------------------------------------------------------------------------------
