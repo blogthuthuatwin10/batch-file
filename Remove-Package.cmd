@@ -1,8 +1,8 @@
 :: ==================================================================================
-:: Name     : Remove-Package.cmd
-:: Created by   : Nguyen Tuan.
-:: Website  : www.blogthuthuatwin10.com
-:: Warning: First download SetACL.exe and copy path to c:\windows\system32
+:: Name: Remove-Package.cmd
+:: Created by: Nguyen Tuan.
+:: Website: www.blogthuthuatwin10.com
+:: Warning: First download SetACL.exe at https://yadi.sk/d/nMQ3fi0_3JojuN and copy it path to c:\windows\system32
 :: ==================================================================================
 
 :Settings
